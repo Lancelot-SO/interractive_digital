@@ -20,15 +20,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path='/' element={<Hero />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/services' element={<Service />} />
-          <Route path='/marketing' element={<Marketing />} />
-          <Route path='/advertising' element={<Advertising />} />
-          <Route path='/video' element={<Video />} />
-          <Route path='/digitalstrategy' element={<DigitalStrategy />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/blog' element={<Blog />} />
-          <Route path='/blogpost' element={<BlogPost />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/services' element={<Service />} />
+          <Route exact path='/marketing' element={<Marketing />} />
+          <Route exact path='/advertising' element={<Advertising />} />
+          <Route exact path='/video' element={<Video />} />
+          <Route exact path='/digitalstrategy' element={<DigitalStrategy />} />
+          <Route exact path='/contact' element={<Contact />} />
+          <Route exact path='/blog' element={<Blog />} />
+          <Route exact path='/blogpost' element={<BlogPost />} />
         </Routes>
         <Footer />
       </Router>

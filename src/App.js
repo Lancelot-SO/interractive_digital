@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -16,10 +16,10 @@ import BlogPost from './components/BlogPost';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Navbar />
         <Routes>
-          <Route path='/' element={<Hero />} />
+          <Route exact path='/' element={<Hero />} />
           <Route path='/about' element={<About />} />
           <Route path='/services' element={<Service />} />
           <Route path='/marketing' element={<Marketing />} />
@@ -31,7 +31,7 @@ function App() {
           <Route path='/blogpost' element={<BlogPost />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }

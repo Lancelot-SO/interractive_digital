@@ -1,0 +1,98 @@
+.banner-container {
+    background: url(../assets/Container.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    overflow-y: hidden;
+    width: 1200px;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+.banner-container h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.banner-container p {
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+    align-self: stretch;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 1100px;
+}
+
+.banner-arrow {
+    background-color: #FFF;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+.banner-arrow a {
+    color: #ED3224;
+}
+
+@media screen and (max-width: 767px) {
+    .banner-container {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .banner-container h1 {
+        font-size: 30px;
+        font-style: normal;
+        line-height: 110%;
+        font-family: "Poppins", sans-serif;
+        color: #FFF;
+        text-align: center;
+        overflow-y: hidden;
+        width: 341px;
+        display: inline-block;
+        padding-right: 40px;
+    }
+
+    .banner-container p {
+        font-family: "Poppins", sans-serif;
+        color: #FFF;
+        align-self: stretch;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        width: 300px;
+    }
+
+    .banner-arrow {
+        background-color: #FFF;
+        width: 150px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 80px;
+    }
+
+}

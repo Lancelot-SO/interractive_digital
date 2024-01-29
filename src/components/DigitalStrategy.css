@@ -1,0 +1,245 @@
+.strategy {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.strategy img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.strategy-text {
+    position: absolute;
+    top: 350px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.strategy-text h2 {
+    display: flex;
+    width: 1476px;
+    height: 81px;
+    flex-direction: column;
+    font-family: "Poppins";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 66px;
+    padding-right: 50px;
+}
+
+.strategy-next-text {
+    display: none;
+}
+
+.main-strategy {
+    background: radial-gradient(50% 50% at 50% 50%, #333F4C 0%, #27323E 100%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.strategy-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.strategy-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.strategy-row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.strategy-content h3 {
+    color: #FFF;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 374px;
+}
+
+.strategy-content span {
+    color: #FFF;
+    text-align: right;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 272px;
+    height: 106px;
+    flex-shrink: 0;
+    overflow-y: hidden;
+    margin-left: 100px;
+}
+
+.strategy-row img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 15px;
+}
+
+.stra-col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.stra-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.stra-row img {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    margin-top: 25px;
+}
+
+.stra-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.stra-content h3 {
+    color: #FFF;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 374px;
+}
+
+.stra-content span {
+    color: #FFF;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 272px;
+    height: 106px;
+    flex-shrink: 0;
+    overflow-y: hidden;
+}
+
+.main-strategy img {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+    .strategy {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .strategy-text {
+        display: none;
+    }
+
+    .strategy-next-text {
+
+        position: absolute;
+        display: flex;
+        top: 50%;
+        left: 150px;
+        color: #fff;
+        padding: 10px;
+        transform: translate(-50%, -50%);
+
+    }
+
+    .main-strategy {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        /* Reduced padding for smaller screens */
+    }
+
+    .strategy-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .strategy-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .strategy-row h3 {
+        display: flex;
+        align-self: center;
+        padding-left: 120px;
+        font-size: 24px;
+    }
+
+    .strategy-row span {
+        display: flex;
+        align-self: center;
+        padding-right: 80px;
+    }
+
+    .strategy-row img {
+        margin-left: 170px;
+    }
+
+    .strategy-content {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .main-strategy img {
+        order: -1;
+        /* Move the img (vr) to the start of the column */
+    }
+
+    .stra-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .stra-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stra-content h3 {
+        padding-left: 90px;
+        font-size: 24px;
+    }
+}

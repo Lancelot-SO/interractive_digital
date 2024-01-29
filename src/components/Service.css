@@ -1,0 +1,124 @@
+/* Add this style to your existing stylesheet */
+
+.service {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.service-text {
+    position: absolute;
+    top: 400px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.service-text h2 {
+    display: flex;
+    height: 73.706px;
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.main-service {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F7FF;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.service-left {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.service-left h3 {
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    line-height: 1;
+    padding-bottom: 8px;
+    overflow-y: hidden;
+}
+
+.service-left small,
+.service-left h3,
+.service-left span {
+    margin: 0;
+    /* Remove default margins */
+    text-align: left;
+
+    /* Align text to the left */
+}
+
+.service-arrow {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.service-arrow a {
+    color: #ED3224;
+    margin-right: 10px;
+}
+
+.service-right {
+    flex: 1;
+    text-align: center;
+}
+
+.service-right img {
+    max-width: 80%;
+    /* Ensure the image doesn't exceed its container width */
+    height: auto;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+.services:nth-child(4) {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #F0F7FF;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .service-left {
+        padding-right: 20px;
+    }
+
+    .service-right {
+        width: 100%;
+        margin: 40px;
+        padding-right: 20px;
+    }
+}

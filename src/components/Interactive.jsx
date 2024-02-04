@@ -38,8 +38,8 @@ const Interactive = () => {
     return (
         <div>
             <section class="interactive">
-                <div class="digital">
-                    <div data-aos="fade-up" class="digital-left">
+                <div data-aos="zoom-in" class="digital">
+                    <div class="digital-left">
                         <img src={icon} alt="icon" />
 
                         <h2>
@@ -70,7 +70,7 @@ const Interactive = () => {
                             </svg>
                         </div>
                     </div>
-                    <div data-aos="fade-up-left" class="digital-right">
+                    <div class="digital-right">
                         <div class="container">
                             <div class="picture-container1">
                                 <img src={picture1} alt="pic1" />

@@ -56,21 +56,19 @@
 }
 
 .service-left h3 {
-    font-size: 50px;
+    font-size: 35px;
     font-family: "Poppins", sans-serif;
     line-height: 1;
     padding-bottom: 8px;
     overflow-y: hidden;
+    width: 300px;
 }
 
 .service-left small,
 .service-left h3,
 .service-left span {
     margin: 0;
-    /* Remove default margins */
     text-align: left;
-
-    /* Align text to the left */
 }
 
 .service-arrow {

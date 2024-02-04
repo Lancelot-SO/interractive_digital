@@ -192,7 +192,6 @@ footer {
         margin-bottom: 20px;
     }
 
-    .left-main-socials,
     .lms,
     .footer-down {
         width: 100%;
@@ -203,11 +202,12 @@ footer {
     .left-main-socials {
         flex-direction: row;
         overflow-y: hidden;
-        gap: 15px;
+        padding-bottom: 20px;
+        width: 100%;
+
     }
 
     .lms {
-        gap: 15px;
         width: auto;
         overflow-y: hidden;
     }

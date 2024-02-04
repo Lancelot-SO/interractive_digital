@@ -10,7 +10,7 @@ footer {
 .main-footer {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1700px;
     /* Adjust the maximum width as needed */
     margin: 0 auto;
 }
@@ -31,9 +31,13 @@ footer {
     padding-bottom: 10px;
 }
 
+.left-footer .at-info {
+    color: red;
+}
+
 .left-footer h5 {
     color: #FFF;
-    font-family: Roboto;
+    font-family: "Poppins", sans-serif;
     font-size: 11.42px;
     font-style: normal;
     font-weight: 400;
@@ -102,7 +106,7 @@ footer {
     flex-direction: row;
     align-items: center;
     gap: 10px;
-    width: 431.509px;
+    max-width: 431.509px;
     overflow-y: hidden;
     /* Adjust the gap as needed */
 }
@@ -137,6 +141,7 @@ footer {
 
 .left-content {
     flex: 1;
+    padding-left: 70px;
 }
 
 .right-content {
@@ -144,6 +149,7 @@ footer {
     padding: 0;
     display: flex;
     gap: 20px;
+    padding-right: 100px;
     /* Adjust the gap between list items */
 }
 

@@ -25,7 +25,7 @@
 .digital-left h2 {
     color: #0F172A;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
@@ -33,6 +33,7 @@
     z-index: 2;
     padding-left: 35px;
     overflow-y: hidden;
+    padding-bottom: 5px;
 }
 
 .digital-left p {
@@ -60,7 +61,7 @@
     text-decoration: none;
     margin-right: 10px;
     color: var(--primary-color, #ED3224);
-    font-family: Inter;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -124,7 +125,7 @@
 }
 
 .digital-left2 small {
-    color: var(--primary-color, #ED3224);
+    color: #ED3224;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-style: normal;
@@ -135,16 +136,17 @@
 }
 
 .digital-left2 h2 {
-    color: var(--text-heading, #0F172A);
+    color: #0F172A;
     font-family: 'Poppins', sans-serif;
-    font-size: 56px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
-    line-height: 66px;
+    line-height: 36px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     padding-left: 35px;
     overflow-y: hidden;
+    margin-top: 20px;
 }
 
 .digital-left2 p {
@@ -159,6 +161,30 @@
     width: 431.509px;
 }
 
+.add-arrow {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    gap: 10px;
+}
+
+.add-arrow a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: var(--primary-color, #ED3224);
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.add-arrow svg {
+    fill: #ED3224;
+    cursor: pointer;
+}
+
 .arrow2 {
     display: flex;
     align-items: center;
@@ -170,7 +196,7 @@
     text-decoration: none;
     margin-right: 10px;
     color: var(--primary-color, #ED3224);
-    font-family: Inter;
+    font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -180,7 +206,7 @@
 
 /* Style the arrow icon */
 .arrow2 svg {
-    fill: red;
+    fill: #ED3224;
     cursor: pointer;
 }
 
@@ -206,14 +232,15 @@
 .service1 {
     border-radius: 11px;
     background: #FFF;
-    width: 254.513px;
     height: 63px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 11px;
     align-items: center;
     padding: 0 10px;
+    width: 220px;
     margin-bottom: 10px;
     box-shadow: 0px 4px 70px 0px rgba(85, 63, 46, 0.04);
 }
@@ -221,14 +248,15 @@
 .service2 {
     border-radius: 11px;
     background: #FFF;
-    width: 254.513px;
     height: 63px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 11px;
     align-items: center;
     padding: 0 10px;
+    width: 220px;
     margin-bottom: 10px;
     box-shadow: 0px 4px 70px 0px rgba(85, 63, 46, 0.04);
 }
@@ -236,29 +264,32 @@
 .service3 {
     border-radius: 11px;
     background: #FFF;
-    width: 254.513px;
     height: 63px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 11px;
     align-items: center;
     padding: 0 10px;
     margin-bottom: 10px;
+    width: 220px;
     box-shadow: 0px 4px 70px 0px rgba(85, 63, 46, 0.04);
 }
 
 .service4 {
     border-radius: 11px;
     background: #FFF;
-    width: 254.513px;
     height: 63px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 11px;
     align-items: center;
     padding: 0 10px;
+    width: 220px;
+    align-self: stretch;
     margin-bottom: 10px;
     box-shadow: 0px 4px 70px 0px rgba(85, 63, 46, 0.04);
 }
@@ -266,12 +297,13 @@
 .service5 {
     border-radius: 11px;
     background: #FFF;
-    width: 254.513px;
+    width: 220px;
     height: 63px;
     flex-shrink: 0;
     display: flex;
     flex-direction: row;
     gap: 10px;
+    font-size: 11px;
     align-items: center;
     padding: 0 10px;
     margin-bottom: 10px;
@@ -476,12 +508,13 @@
 .process-left h2 {
     color: var(--text-heading, #0F172A);
     font-family: 'Poppins', sans-serif;
-    font-size: 56px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 500;
     line-height: 110%;
     align-self: stretch;
     overflow-y: hidden;
+    margin-bottom: 20px;
 
 }
 
@@ -793,9 +826,14 @@
         height: 390px;
     }
 
+    .add-arrow {
+        display: none;
+    }
+
     .arrow2 {
         margin-bottom: 20px;
         margin-top: 20px;
+
     }
 
     .digital2 {
@@ -850,6 +888,7 @@
     .process-left {
         padding: 20px 20px;
         overflow-y: hidden;
+
     }
 
     .process-right {

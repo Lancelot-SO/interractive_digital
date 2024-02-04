@@ -97,6 +97,22 @@ const Interactive = () => {
                             We examine the top of funnel to figure out how to make people to a
                             subscribe newsletter then turn prospects into leads.
                         </p>
+                        <div className='add-arrow'>
+                            <a href="/">Contact us</a>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-arrow-right"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                                />
+                            </svg>
+                        </div>
                         <div class="arrow2">
                             <a href="/">Contact us</a>
                             <svg
@@ -140,7 +156,7 @@ const Interactive = () => {
                                     <div class="img">
                                         <img src={service4} alt="service1" />
                                     </div>
-                                    <span>Web Design</span>
+                                    <span>Website Design</span>
                                 </div>
                                 <div class="service5" data-card="5" onmouseover="showCard(5)">
                                     <div class="img">

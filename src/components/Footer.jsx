@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='main-footer'>
                 <div className='left-footer'>
                     <span>Get in touch<br />
-                        info@interactivedigital.com.gh
+                        info<span className='at-info'>@interactivedigital.com.gh</span>
                     </span>
                     <div className='left-socials'>
                         <h5>Follow us on</h5>

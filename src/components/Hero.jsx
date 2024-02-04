@@ -32,7 +32,7 @@ const Hero = () => {
                 <div className='main-container'>
                     <div className='container'>
                         <div className='container-left'>
-                            <div data-aos="zoom-out-right" className='container-text'>
+                            <div className='container-text'>
                                 <h1>
                                     Grow your<br /> <span>business</span> not your<br /> followers
                                 </h1>

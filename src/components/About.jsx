@@ -26,8 +26,8 @@ const About = () => {
                 <section className='data'>
                     <img src={star} alt='star' className='background-image' />
                     <div className='data-text'>
-                        <h3>Data-Driven,</h3>
-                        <span>Human-Centered</span>
+                        <h3>Introducing the best
+                            Digital Agency!</h3>
                         <p>We are an award-winning, full service digital marketing agency that creates
                             compelling online experiences in digital media for great brands.
                             Our solutions leverage strategy, creative thinking and coordinated execution
@@ -70,7 +70,7 @@ const About = () => {
                         Team!</h5>
                     <h6>Awesome team
                         members</h6>
-                    <div>
+                    <div className='team-image'>
                         <img src={team1} alt='team' />
                         <img src={team2} alt='team' />
                         <img src={team3} alt='team' />

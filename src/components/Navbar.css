@@ -66,6 +66,7 @@ nav {
     display: block;
     margin-bottom: 20px;
     margin-left: 20px;
+    width: 180px;
     padding: 10px 70px 10px 0;
     border-bottom: 2px solid #e3dfde;
 }

@@ -281,10 +281,11 @@ const Interactive = () => {
                                 </svg>
                                 <span>We always create</span>
                             </div>
+                            <div class="find">
+                                <a href="/about">Find more about us</a>
+                            </div>
                         </div>
-                        <div class="find">
-                            <a href="/about">Find more about us</a>
-                        </div>
+
                     </div>
                     <div class="process-right">
                         <div class="main-process">

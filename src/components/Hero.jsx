@@ -14,6 +14,9 @@ import mainSocial from "../assets/main-socials.png"
 import backlight from "../assets/Backlights.svg"
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import "../fonts/Fontspring-DEMO-lufga-black.otf"
+
+
 
 
 

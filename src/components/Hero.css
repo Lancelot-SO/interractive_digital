@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Fontspring-demo-lufga-black";
+    src: local("Fontspring-demo-lufga-black") url("../fonts/Fontspring-DEMO-lufga-black.otf") format("truetype");
+}
+
 .hero {
     background-color: #14151C;
     display: flex;
@@ -73,6 +78,8 @@ a {
     flex: 5px;
     overflow-y: hidden;
     line-height: 1;
+    font-weight: 900 !important;
+
 }
 
 .container-left h1 span {
